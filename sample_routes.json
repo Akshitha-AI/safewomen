@@ -1,0 +1,111 @@
+{
+  "routes": [
+    {
+      "id": 1,
+      "name": "Safest Route",
+      "type": "safest",
+      "segments": [
+        {
+          "length_m": 800,
+          "lighting": 0.95,
+          "police_distance_m": 300,
+          "police_count": 2,
+          "hospital_distance_m": 600,
+          "hospital_count": 1,
+          "community_positive": 8,
+          "community_negative": 0,
+          "geometry": [
+            [17.4095, 78.4468],
+            [17.4105, 78.4475],
+            [17.4115, 78.4485],
+            [17.4120, 78.4495],
+            [17.4125, 78.4505],
+            [17.4130, 78.4512]
+          ]
+        },
+        {
+          "length_m": 500,
+          "lighting": 0.92,
+          "police_distance_m": 250,
+          "police_count": 1,
+          "hospital_distance_m": 400,
+          "hospital_count": 1,
+          "community_positive": 6,
+          "community_negative": 1,
+          "geometry": [
+            [17.4130, 78.4512],
+            [17.4133, 78.4515],
+            [17.4138, 78.4520]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Balanced Route",
+      "type": "balanced",
+      "segments": [
+        {
+          "length_m": 900,
+          "lighting": 0.75,
+          "police_distance_m": 600,
+          "police_count": 1,
+          "hospital_distance_m": 800,
+          "hospital_count": 0,
+          "community_positive": 4,
+          "community_negative": 2,
+          "geometry": [
+            [17.4095, 78.4468],
+            [17.4100, 78.4460],
+            [17.4108, 78.4452],
+            [17.4115, 78.4450],
+            [17.4122, 78.4458],
+            [17.4128, 78.4470]
+          ]
+        },
+        {
+          "length_m": 600,
+          "lighting": 0.68,
+          "police_distance_m": 800,
+          "police_count": 0,
+          "hospital_distance_m": 600,
+          "hospital_count": 1,
+          "community_positive": 2,
+          "community_negative": 3,
+          "geometry": [
+            [17.4128, 78.4470],
+            [17.4132, 78.4485],
+            [17.4135, 78.4500],
+            [17.4138, 78.4520]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fastest Route",
+      "type": "fastest",
+      "segments": [
+        {
+          "length_m": 1200,
+          "lighting": 0.50,
+          "police_distance_m": 1500,
+          "police_count": 0,
+          "hospital_distance_m": 2000,
+          "hospital_count": 0,
+          "community_positive": 1,
+          "community_negative": 5,
+          "geometry": [
+            [17.4095, 78.4468],
+            [17.4102, 78.4440],
+            [17.4112, 78.4438],
+            [17.4122, 78.4442],
+            [17.4130, 78.4462],
+            [17.4135, 78.4490],
+            [17.4138, 78.4520]
+          ]
+        }
+      ]
+    }
+  ]
+}
